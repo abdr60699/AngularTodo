@@ -1,1 +1,56 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+}
+
+/* 
+body {
+    margin: 0px;
+    height: 100%;
+    background-color: #fff;
+  } */
+
+html{
+    margin-top:-20px ;
+}
+
+
+
+    /* .head{
+        background-color: #FFD93D;
+    } */
+
+
+    .but-on{
+        margin-top: 10px;
+    }
+   .anchorText{
+    color: white;
+   }
+
+    li{
+      font-size: 2rem;
+      margin-top: 5px;
+      border: 1px  black
+    ;
+    display: flex;
+      justify-content: space-between;
+    }
+
+    .btn-D{
+        position: relative;
+        left: 200px;
+
+        
+    }
+
+    .full{
+        background-color: rgb(235, 234, 234);
+        height: 600px;
+    }
+
+    .top-container{
+        background-color: orange;
+        height: 90px;
+        padding: 20px;
+        color: white;
+    }

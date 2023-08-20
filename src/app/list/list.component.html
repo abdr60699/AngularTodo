@@ -1,0 +1,7 @@
+<h3>{{ subTitle }} ({{ taskList.length }})</h3>
+<ul>
+  <li *ngFor="let tasks of taskList; let i = index">
+    {{ tasks }}
+    <button class="btn btn-danger" (click)="delete(i)">Delete</button>
+  </li>
+</ul>
